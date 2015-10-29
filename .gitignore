@@ -1,0 +1,15 @@
+target
+idea*
+*.iml
+.classpath
+.settings
+docs/build
+.*.swp
+*.pyc
+bin
+build
+_build
+.ipynb*
+.gradle
+*.ipr
+*.iws
