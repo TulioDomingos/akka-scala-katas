@@ -16,7 +16,7 @@ The `Master` actor has the following responsibilities:
 - Delegate work to child actors
 - Supervise the child actors. (the default supervision strategy is used, supervision is not part of this exercise)
 
-The flow of the program should be as follows:
+###Flow of the program
 
 - `Master` actor accepts a sentence 
 - Split the sentence into chunks of words which are sent out to each `Slave` actor to be processed (reverse each word). 
