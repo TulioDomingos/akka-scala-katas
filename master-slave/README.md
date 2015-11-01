@@ -36,8 +36,6 @@ A good starting point is to make the `SlaveActorSpec` pass.
 
 ###Running the application
 
-Clone the repository: https://github.com/TulioDomingos/akka-scala-katas.git
-Change directory: `cd master-slave`
-Execute tests: `./gradlew test`
-
- 
+- Clone the repository: https://github.com/TulioDomingos/akka-scala-katas.git
+- Change directory: `cd master-slave`
+- Execute tests: `./gradlew test`
