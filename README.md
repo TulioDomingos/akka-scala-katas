@@ -1,1 +1,1 @@
-# akka-scala-katas
+# Akka Katas in Scala
