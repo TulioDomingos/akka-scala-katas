@@ -18,16 +18,5 @@ class MasterActor(numOfSlaves: Int, listener: ActorRef) extends Actor {
     Props[SlaveActor].withRouter(RoundRobinPool(numOfSlaves)), name = "slaveActorRouter"
   )
 
-  def receive = {
-    case ReverseSentence(sentence: String) =>
-      numOfWords = sentence.split(" ").map (workerRouter ! ReverseWord(_)).length
-
-    case ReversedWord(value) =>
-      reversedSentence += (value + " ")
-      numOfCompletedWords += 1
-      if (numOfCompletedWords == numOfWords) {
-        listener ! ReversedSentence(reversedSentence)
-        context.stop(self)
-      }
-  }
+  def receive = ???
 }
