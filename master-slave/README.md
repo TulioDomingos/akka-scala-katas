@@ -22,7 +22,7 @@ The `Master` actor has the following responsibilities:
 - Split the sentence into chunks of words which are sent out to each `Slave` actor to be processed (reverse each word). 
 - When each worker has processed its chunk it sends a result back to the master which aggregates the total result. Order of words aren't important (subtasks do not need coordination)
 - Send the aggregated total result (reversed words) to the `Listener`
-- Listener prints out the result.
+- `Listener` prints out the result.
 
 ###What is already prepared
 
