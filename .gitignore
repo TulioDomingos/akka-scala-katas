@@ -13,3 +13,4 @@ _build
 .gradle
 *.ipr
 *.iws
+out/
