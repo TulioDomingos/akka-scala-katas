@@ -40,3 +40,4 @@ A good starting point is to make the `SlaveActorSpec` pass.
 - Clone the repository: https://github.com/TulioDomingos/akka-scala-katas.git
 - Change directory: `cd master-slave`
 - Execute tests: `./gradlew test`
+- Run main class: `./gradlew run`
