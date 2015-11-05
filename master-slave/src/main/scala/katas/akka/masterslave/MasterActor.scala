@@ -1,7 +1,7 @@
 package katas.akka.masterslave
 
 import akka.actor.{Props, Actor, ActorRef}
-import akka.routing.{RoundRobinPool, RoundRobinRouter}
+import akka.routing.RoundRobinPool
 
 /**
  * Created by Tulio Domingos
