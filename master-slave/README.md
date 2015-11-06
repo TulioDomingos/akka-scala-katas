@@ -1,5 +1,6 @@
 Akka Kata in Scala
 ==========
+An Akka exercise in Scala inspired by Jonas Boner's [getting started tutorial](http://doc.akka.io/docs/akka/2.0.2/intro/getting-started-first-scala.html)
 
 ###Prerequisites
 Java 1.6 or later installed on you machine and Java on your `PATH`
