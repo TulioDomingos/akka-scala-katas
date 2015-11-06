@@ -42,3 +42,5 @@ A good starting point is to make the `SlaveActorSpec` pass.
 - Change directory: `cd master-slave`
 - Execute tests: `./gradlew test`
 - Run main class: `./gradlew run`
+
+As you complete the exercise, you can check your answers against the [solutions branch](https://github.com/TulioDomingos/akka-scala-katas/tree/solution/master-slave)
