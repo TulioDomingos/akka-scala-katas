@@ -33,6 +33,7 @@ The `Master` actor has the following responsibilities:
 - `MasterActor.scala`: The master actor stub
 - `SlaveActor.scala`: The slave actor stub
 - `SlaveActorSpec.scala`: Slave actor BDD test.
+- `MasterActorSpec.scala`: Not created so you should implement one.
 
 A good starting point is to make the `SlaveActorSpec` pass.
 
