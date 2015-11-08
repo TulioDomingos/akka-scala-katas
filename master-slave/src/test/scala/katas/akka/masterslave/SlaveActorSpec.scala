@@ -1,10 +1,10 @@
 package katas.akka.masterslave
 
 import akka.actor.ActorSystem
-import akka.testkit.{ImplicitSender, TestActorRef, TestKit}
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.{MustMatchers, WordSpecLike}
+import akka.testkit.{ImplicitSender, TestActorRef, TestKit}
 
 /**
  * Created by Tulio Domingos
