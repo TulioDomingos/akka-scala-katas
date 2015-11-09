@@ -35,7 +35,10 @@ The `Master` actor has the following responsibilities:
 - `SlaveActorSpec.scala`: Slave actor BDD test.
 - `MasterActorSpec.scala`: Not created so you should implement one.
 
-  A good starting point is to make the `SlaveActorSpec` pass.
+A good starting point is to make the `SlaveActorSpec` pass.
+
+
+      tulio naja luna domingos
 
 ###Running the application
 
