@@ -40,7 +40,7 @@ A good starting point is to make the `SlaveActorSpec` pass.
 
       tulio naja luna domingos
       
-```
+```sh
 tulio naja luna domingos
 ```
 
