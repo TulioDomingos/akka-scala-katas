@@ -39,6 +39,8 @@ A good starting point is to make the `SlaveActorSpec` pass.
 
 
       tulio naja luna domingos
+      
+      `tulio naja luna domingos`
 
 ###Running the application
 
