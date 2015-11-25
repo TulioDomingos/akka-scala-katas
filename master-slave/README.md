@@ -37,13 +37,6 @@ The `Master` actor has the following responsibilities:
 
 A good starting point is to make the `SlaveActorSpec` pass.
 
-
-      tulio naja luna domingos
-      
-```sh
-tulio naja luna domingos
-```
-
 ###Running the application
 
 - Clone the repository: https://github.com/TulioDomingos/akka-scala-katas.git
