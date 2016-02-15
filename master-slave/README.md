@@ -1,5 +1,6 @@
 Akka Kata in Scala
 ==========
+An Akka exercise in Scala inspired by Jonas Boner's [getting started tutorial](http://doc.akka.io/docs/akka/2.0.2/intro/getting-started-first-scala.html)
 
 ###Prerequisites
 Java 1.6 or later installed on you machine and Java on your `PATH`
@@ -21,7 +22,7 @@ The `Master` actor has the following responsibilities:
 - `Master` actor accepts a sentence 
 - Split the sentence into chunks of words which are sent out to each `Slave` actor to be processed (reverse each word). 
 - When each worker has processed its chunk it sends a result back to the master which aggregates the total result. Order of words aren't important (subtasks do not need coordination)
-- Send the aggregated total result (reversed words) to the `Listener`   
+- Send the aggregated total result (reversed words) to the `Listener`
 - `Listener` prints out the result.
 
 ###What is already prepared
@@ -42,4 +43,4 @@ A good starting point is to make the `SlaveActorSpec` pass.
 - Execute tests: `./gradlew test`
 - Run main class: `./gradlew run`
 
-
+As you complete the exercise, you can check your answers against the [solutions branch](https://github.com/TulioDomingos/akka-scala-katas/tree/solution/master-slave)
